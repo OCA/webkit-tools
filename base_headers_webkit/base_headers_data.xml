@@ -162,6 +162,10 @@ table .address_title {
     font-weight: bold;
 }
 
+.address td.name {
+    font-weight: bold;
+}
+
 td.amount, th.amount {
     text-align: right;
 }
