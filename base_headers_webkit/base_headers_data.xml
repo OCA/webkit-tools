@@ -85,6 +85,11 @@ body {
     font-size: 11px;
 }
 
+table {
+    font-family: helvetica;
+    font-size: 11px;
+}
+
 .header {
     margin-left: 0px;
     text-align: left;
