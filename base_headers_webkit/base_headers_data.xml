@@ -110,6 +110,11 @@ table {
     border-collapse: collapse;
 }
 
+.basic_table th {
+    border: 1px solid lightGrey;
+    font-size: 12px;
+}
+
 .basic_table td {
     border: 1px solid lightGrey;
     font-size: 12px;
