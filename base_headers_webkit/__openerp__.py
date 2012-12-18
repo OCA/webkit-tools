@@ -26,21 +26,19 @@
 # Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #
 ##############################################################################
-
-{
-    'name': 'Base wekbit headers and CSS for standard reports (sale, purchase, invoices, ...)',
-    'version': '1.0',
-    'category': 'Reports/Webkit',
-    'description': """
-Contains data headers and css to design standard reports, used by common modules like sale_order_wekbit, purchase_order_webkit, ...
+{'name': 'Base wekbit headers and CSS for standard reports (sale, purchase, invoices, ...)',
+ 'version': '1.0',
+ 'category': 'Reports/Webkit',
+ 'description': """
+  Contains data headers and css to design standard reports, used by common modules like sale_order_wekbit, purchase_order_webkit, ...
     """,
-    'author': 'Camptocamp',
-    'website': 'http://www.openerp.com',
-    'depends': ['base', 'report_webkit'],
-    'init_xml': [],
-    'update_xml': ['base_headers_data.xml'],
-    'demo_xml': [],
-    'test': [],
-    'installable': True,
-    'active': False,
+  'author': 'Camptocamp',
+  'website': 'http://www.camptocamp.com',
+  'depends': ['base', 'report_webkit'],
+  'init_xml': [],
+  'update_xml': ['base_headers_data.xml'],
+  'demo_xml': [],
+  'test': [],
+  'installable': False,
+  'active': False,
 }
