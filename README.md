@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/OCA/webkit-tools.svg?branch=master)](https://travis-ci.org/OCA/webkit-tools)
+[![Coverage Status](https://img.shields.io/coveralls/OCA/webkit-tools.svg)](https://coveralls.io/r/OCA/webkit-tools?branch=master)
+
+
 Webkit Tools
 ============
 
