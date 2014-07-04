@@ -31,16 +31,16 @@
  'category': 'Reports/Webkit',
  'description': """
   Contains data headers and css to design standard reports, used by common modules like:
-   - sale_order_wekbit, 
+   - sale_order_wekbit,
    - purchase_order_webkit, ...
-    """,
-  'author': 'Camptocamp',
-  'website': 'http://www.camptocamp.com',
-  'depends': ['base', 'report_webkit'],
-  'init_xml': [],
-  'update_xml': ['base_headers_data.xml'],
-  'demo_xml': [],
-  'test': [],
-  'installable': True,
-  'active': False,
-}
+""",
+ 'author': 'Camptocamp',
+ 'website': 'http://www.camptocamp.com',
+ 'depends': ['base', 'report_webkit'],
+ 'init_xml': [],
+ 'update_xml': ['base_headers_data.xml'],
+ 'demo_xml': [],
+ 'test': [],
+ 'installable': True,
+ 'active': False,
+ }
