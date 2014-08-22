@@ -26,13 +26,15 @@
 # Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #
 ##############################################################################
-{'name': 'Base wekbit headers and CSS for standard reports (sale, purchase, invoices, ...)',
+{'name': """Common Webkit headers and CSS for standard reports
+(sale, purchase, invoices, ...)""",
  'version': '1.0',
  'category': 'Reports/Webkit',
  'description': """
-  Contains data headers and css to design standard reports, used by common modules like:
+  Contains Common data headers and CSS to design standard reports, used by:
    - sale_order_wekbit,
-   - purchase_order_webkit, ...
+   - purchase_order_webkit,
+   - ...
 """,
  'author': 'Camptocamp',
  'website': 'http://www.camptocamp.com',
