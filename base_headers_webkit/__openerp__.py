@@ -41,6 +41,6 @@
   'update_xml': ['base_headers_data.xml'],
   'demo_xml': [],
   'test': [],
-  'installable': False,
+  'installable': True,
   'active': False,
 }
