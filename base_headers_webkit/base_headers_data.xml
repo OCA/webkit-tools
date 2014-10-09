@@ -6,6 +6,7 @@
 
         <record id="base_reports_portrait_header" model="ir.header_webkit">
             <field name="footer_html"><![CDATA[
+<html>
 <head>
     <meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
     <script>
@@ -27,7 +28,8 @@
             <td style="text-align:right;font-size:12;" width="95%">Page <span class="page"/></td><td style="text-align:left;font-size:12;">  of <span class="topage"/></td>
         </tr>
     </table>
-</body>]]></field>
+</body>
+</html>]]></field>
             <field name="orientation">Portrait</field>
             <field name="format">A4</field>
             <field name="html"><![CDATA[
@@ -53,7 +55,7 @@
     <body style="border:0; margin: 0;" onload="subst()">
         <table class="header" style="border-bottom: 0px solid black; width: 100%">
             <tr>
-                <td>${helper.embed_logo_by_name('camptocamp_logo')|n}</td>
+                <td>${helper.embed_image('png', company.logo)|n}</td>
                 <td style="text-align:right"> </td>
             </tr>
             <tr>
@@ -204,6 +206,7 @@ tr.line {
 <!-- ...................................MINIMALIST.......................................... -->
 <record id="base_minimum_reports_portrait_header" model="ir.header_webkit">
             <field name="footer_html"><![CDATA[
+<html>
 <head>
     <meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
     <script>
@@ -225,7 +228,8 @@ tr.line {
             <td style="text-align:right;font-size:12;" width="95%">Page <span class="page"/></td><td style="text-align:left;font-size:12;">  of <span class="topage"/></td>
         </tr>
     </table>
-</body>]]></field>
+</body>
+</html>]]></field>
             <field name="orientation">Portrait</field>
             <field name="format">A4</field>
             <field name="html"><![CDATA[
