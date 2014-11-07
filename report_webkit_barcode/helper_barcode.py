@@ -52,9 +52,9 @@ def patch_helper():
         for k in ('width', 'height'):
             # Attempt to unify drawing and image sizes to prevent accidental
             # scaling, and reduce parameter duplication
-            if k in drawOpts and not k in attrs:
+            if k in drawOpts and k not in attrs:
                 attrs[k] = "{0}px".format(drawOpts[k])
-            elif k in attrs and not k in drawOpts:
+            elif k in attrs and k not in drawOpts:
                 # reportlab expects a float
                 value = str(attrs[k])
                 if value.endswith("px"):
@@ -72,6 +72,5 @@ def patch_helper():
             data.encode('base64'), imgtype,
         )
         return HTML(Element('img', attrs))
-
 
     WebKitHelper.barcode = barcode
