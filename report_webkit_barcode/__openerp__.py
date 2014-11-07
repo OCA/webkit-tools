@@ -27,7 +27,7 @@
     'maintainer': 'Savoir-faire Linux',
     'website': 'http://www.savoirfairelinux.com',
     'license': 'AGPL-3',
-    'category': 'FIXMEFIXMEFIXME',
+    'category': 'Reports/Webkit',
     'summary': 'Adds a barcode helper to webkit reports',
     'description': """
 Add barcodes in webkit reports
@@ -39,7 +39,7 @@ To embed a barcode image in a webkit report, use ``${helper.barcode(value)}``.
 Depending on template filtering, you might need to force not to use any filter
 by doing ``${helper.barcode(value) | u}``
 
-The function is defined as::
+The function is defined as:
   barcode(value, code='Code128', drawOpts=None, htmlAttrs=None)
 
 Parameters
