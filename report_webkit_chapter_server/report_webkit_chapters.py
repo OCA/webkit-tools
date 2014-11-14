@@ -10,6 +10,7 @@ chapter_logger = logging.getLogger('chapter server')
 
 
 class chapter_server(object):
+
     @classmethod
     def __init__(self):
         self.stack = [0]
@@ -21,7 +22,7 @@ class chapter_server(object):
         while len(self.stack) > level:
             self.stack = self.stack[:level]
         try:
-            self.stack[len(self.stack)-1] += 1
+            self.stack[len(self.stack) - 1] += 1
         except:
             chapter_logger.error(self.stack)
         return ".".join("%s" % s for s in self.stack) + "."
