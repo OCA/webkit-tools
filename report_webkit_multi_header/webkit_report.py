@@ -196,7 +196,7 @@ class WebKitMultiParser(WebKitParser):
                     str(val).replace(", ", "."),
                 ])
 
-        for idx, (html, head, foot) in pages:
+        for idx, (html, head, foot) in enumerate(pages):
             body_file = os.path.join(tmpdir, "body{0}.html".format(idx))
             with open(body_file, "wb") as f:
                 f.write(self._sanitize_html(html))
