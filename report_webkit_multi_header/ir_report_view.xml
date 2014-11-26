@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<openerp>
+  <data>
+    <record id="act_report_xml_view" model="ir.ui.view">
+      <field name="name">ir.actions.report.xml.inherit</field>
+      <field name="model">ir.actions.report.xml</field>
+      <field name="inherit_id" ref="report_webkit.act_report_xml_view"/>
+      <field name="arch" type="xml">
+        <xpath expr="//field[@name='precise_mode']" position="after">
+          <field name="multi_mode"/>
+        </xpath>
+      </field>
+    </record>
+  </data>
+</openerp>
+
