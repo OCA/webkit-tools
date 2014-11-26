@@ -33,12 +33,13 @@ def register_report(name, model, tmpl_path, parser=rml_parse):
     if netsvc.Service._services.get(name, False):
         service = netsvc.Service._services[name]
         if isinstance(service, WebKitMultiParser):
-            #already instantiated properly, skip it
+            # already instantiated properly, skip it
             return
         if hasattr(service, 'parser'):
             parser = service.parser
         del netsvc.Service._services[name]
     WebKitMultiParser(name, model, tmpl_path, parser=parser)
+
 
 class Report(orm.Model):
     _name = _inherit = 'ir.actions.report.xml'
@@ -50,10 +51,12 @@ class Report(orm.Model):
                  ' object of the report.'),
     }
 
-    def register_all(self,cursor):
+    def register_all(self, cursor):
         value = super(Report, self).register_all(cursor)
-        cursor.execute("SELECT * FROM ir_act_report_xml WHERE report_type = 'webkit'")
+        cursor.execute("SELECT * FROM ir_act_report_xml "
+                       "WHERE report_type = 'webkit'")
         records = cursor.dictfetchall()
         for record in records:
-            register_report(record['report_name'], record['model'], record['report_rml'])
+            register_report(record['report_name'], record['model'],
+                            record['report_rml'])
         return value

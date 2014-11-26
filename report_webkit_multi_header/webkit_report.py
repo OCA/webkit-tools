@@ -52,8 +52,8 @@ def log_rmtree_error(func, path, exc_info):
 
 
 class WebKitMultiParser(WebKitParser):
+    """ WebKit Parser with per-object header/footer """
 
-    # override needed to keep the attachments storing procedure
     def create_single_pdf(self, cursor, uid, ids, data, report_xml,
                           context=None):
         """generate the PDF"""
@@ -217,7 +217,6 @@ class WebKitMultiParser(WebKitParser):
         command.append(out_filename)
         stderr_path = os.path.join(tmpdir, "stderr.out")
         try:
-            print " ".join(command)
             with open(stderr_path, "w") as stderr_fd:
                 status = subprocess.call(command, stderr=stderr_fd)
             try:

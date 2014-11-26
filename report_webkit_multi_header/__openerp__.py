@@ -30,7 +30,7 @@
     'category': 'Reports/Webkit',
     'summary': 'Allows rendering the report header/footer for each object',
     'description': """
-This module allows you to render the webkit report page headers or footers 
+This module allows you to render the webkit report page headers or footers
 independently for each object. This lets you include object-specific fields
 in the header even when the report covers multiple objects.
 
