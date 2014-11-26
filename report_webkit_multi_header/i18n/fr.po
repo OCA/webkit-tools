@@ -1,0 +1,97 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+# 	* report_webkit_multi_header
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-11-26 13:57+0000\n"
+"PO-Revision-Date: 2014-11-26 09:04-0500\n"
+"Last-Translator: Vincent Vinet <vincent.vinet@savoirfairelinux.com>\n"
+"Language-Team: Savoir-faire Linux\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Language: fr_CA\n"
+
+#. module: report_webkit_multi_header
+#: code:addons/report_webkit_multi_header/webkit_report.py:91
+#, python-format
+msgid "Error!"
+msgstr "Erreur!"
+
+#. module: report_webkit_multi_header
+#: field:ir.actions.report.xml,multi_mode:0
+msgid "Multi Mode"
+msgstr "Mode multi en-tête"
+
+#. module: report_webkit_multi_header
+#: code:addons/report_webkit_multi_header/webkit_report.py:227
+#, python-format
+msgid "No diagnosis message was provided"
+msgstr "Aucun message d'erreur fourni"
+
+#. module: report_webkit_multi_header
+#: code:addons/report_webkit_multi_header/webkit_report.py:97
+#, python-format
+msgid "No header defined for this Webkit report!"
+msgstr "Aucun en-tête défini pour ce rapport Webkit"
+
+#. module: report_webkit_multi_header
+#: code:addons/report_webkit_multi_header/webkit_report.py:98
+#, python-format
+msgid "Please set a header in company settings."
+msgstr "Veuillez renseigner un en-tête dans les réglages de la compagnie."
+
+#. module: report_webkit_multi_header
+#: code:addons/report_webkit_multi_header/webkit_report.py:235
+#, python-format
+msgid "The command 'wkhtmltopdf' failed with error code = %s.Message: %s"
+msgstr ""
+"La commande 'wkhtmltopdf' a échoué avec le code d'erreur = %s. Message: %s"
+
+#. module: report_webkit_multi_header
+#: code:addons/report_webkit_multi_header/webkit_report.py:229
+#, python-format
+msgid "The following diagnosis message was provided:\n"
+msgstr "Le message d'erreur suivant a été fourni:\n"
+
+#. module: report_webkit_multi_header
+#: help:ir.actions.report.xml,multi_mode:0
+msgid ""
+"This mode allows rendering the header and footer for each object of the "
+"report."
+msgstr ""
+"Ce mode permet le rendu indépendant de l'en-tête et du pied de page pour "
+"chaque objet du rapport."
+
+#. module: report_webkit_multi_header
+#: code:addons/report_webkit_multi_header/webkit_report.py:234
+#, python-format
+msgid "Webkit error"
+msgstr "Erreur Webkit"
+
+#. module: report_webkit_multi_header
+#: code:addons/report_webkit_multi_header/webkit_report.py:129
+#: code:addons/report_webkit_multi_header/webkit_report.py:138
+#: code:addons/report_webkit_multi_header/webkit_report.py:151
+#: code:addons/report_webkit_multi_header/webkit_report.py:166
+#, python-format
+msgid "Webkit render!"
+msgstr "Rendu Webkit!"
+
+#. module: report_webkit_multi_header
+#: code:addons/report_webkit_multi_header/webkit_report.py:92
+#, python-format
+msgid "Webkit report template not found!"
+msgstr "Gabarit de rapport Webkit non trouvé!"
+
+#. module: report_webkit_multi_header
+#: code:_description:0
+#: model:ir.model,name:report_webkit_multi_header.model_ir_actions_report_xml
+#, python-format
+msgid "ir.actions.report.xml"
+msgstr ""
