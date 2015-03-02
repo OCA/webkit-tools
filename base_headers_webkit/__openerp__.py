@@ -34,7 +34,7 @@
     'description': """
 Contains data headers and css to design standard reports, used by common modules like sale_order_wekbit, purchase_order_webkit, ...
     """,
-    'author': 'Camptocamp',
+    'author': "Camptocamp,Odoo Community Association (OCA)",
     'website': 'http://www.openerp.com',
     'depends': ['base', 'report_webkit'],
     'init_xml': [],
