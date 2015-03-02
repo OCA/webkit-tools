@@ -16,7 +16,7 @@
         ${chapter.get_structure(a)}<br/>
       %endfor
     """,
-    'author': 'Camptocamp',
+    'author': "Camptocamp,Odoo Community Association (OCA)",
     'website': 'http://openerp.camptocamp.com',
     'depends': ['report_webkit'],
     'init_xml': [],
