@@ -36,7 +36,7 @@
    - purchase_order_webkit,
    - ...
 """,
- 'author': 'Camptocamp',
+ 'author': "Camptocamp,Odoo Community Association (OCA)",
  'website': 'http://www.camptocamp.com',
  'depends': ['base', 'report_webkit'],
  'init_xml': [],
