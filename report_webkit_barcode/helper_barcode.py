@@ -21,9 +21,11 @@
 ##############################################################################
 
 import logging
-_logger = logging.getLogger(__name__)
 
 from openerp.addons.report_webkit.report_helper import WebKitHelper
+
+
+_logger = logging.getLogger(__name__)
 
 
 def patch_helper():
