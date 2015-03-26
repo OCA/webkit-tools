@@ -69,11 +69,11 @@
                 <td/>
             </tr>
             <tr>
-                <td>Phone: ${company.partner_id.phone or ''|entity} </td>
+                <td>${_('Phone:')} ${company.partner_id.phone or ''|entity} </td>
                 <td/>
             </tr>
             <tr>
-                <td>Mail: ${company.partner_id.email or ''|entity}<br/></td>
+                <td>${_('Mail:')} ${company.partner_id.email or ''|entity}<br/></td>
             </tr>
         </table> ${_debug or ''|n} </body>
 </html>]]>
