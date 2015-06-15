@@ -32,6 +32,7 @@
  'version': '1.0',
  'category': 'Reports/Webkit',
  'author': "Camptocamp,Odoo Community Association (OCA)",
+ 'licence': "AGPL-3",
  'website': 'http://www.camptocamp.com',
  'depends': ['base', 'report_webkit'],
  'data': ['base_headers_data.xml'],

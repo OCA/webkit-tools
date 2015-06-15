@@ -2,34 +2,13 @@
     :alt: License: AGPL-3
 
 Base wekbit headers and CSS
-===========
+===========================
 
 
   Contains data headers and css to design standard reports, used by:
    - sale_order_wekbit,
    - purchase_order_webkit, ...
     
-
-Installation
-============
-
-To install this module, you need to:
-
-* do this ...
-
-Configuration
-=============
-
-To configure this module, you need to:
-
-* go to ...
-
-Usage
-=====
-
-To use this module, you need to:
-
-* go to ...
 
 For further information, please visit:
 
@@ -55,8 +34,14 @@ Credits
 Contributors
 ------------
 
-* Firstname Lastname <email.address@example.org>
-* Second Person <second.person@example.org>
+* Alexandre Fayolle <alexandre.fayolle@camptocamp.com>
+* Charbel Jacquin <charbel.jacquin@camptocamp.com>
+* Guewen Baconnier <guewen.baconnier@camptocamp.com>
+* Joël Grand-Guillaume <joel.grandguillaume@camptocamp.com>
+* Leonardo Pistone <leonardo.pistone@camptocamp.com>
+* Nicolas Bessi <nicolas.bessi@camptocamp.com>
+* Yannick Vaucher <yannick.vaucher@camptocamp.com>
+
 
 Maintainer
 ----------
