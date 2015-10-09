@@ -29,7 +29,7 @@
 {'name': 'Base wekbit headers and CSS',
  'summary': """Common Webkit Headers and CSS for standard reports"""
             """ (sale, purchase, invoices, ...)""",
- 'version': '1.0',
+ 'version': '8.0.1.0.0',
  'category': 'Reports/Webkit',
  'author': "Camptocamp,Odoo Community Association (OCA)",
  'licence': "AGPL-3",
