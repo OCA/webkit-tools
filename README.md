@@ -20,6 +20,6 @@ Unported addons
 ---------------
 addon | version | summary
 --- | --- | ---
-[report_webkit_chapter_server](__unported__/report_webkit_chapter_server/) | 0.1 (unported) | Chapter server helper for report webkit
+[report_webkit_chapter_server](report_webkit_chapter_server/) | 0.1 (unported) | Chapter server helper for report webkit
 
 [//]: # (end addons)
