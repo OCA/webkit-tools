@@ -37,5 +37,5 @@
  'depends': ['base', 'report_webkit'],
  'data': ['base_headers_data.xml'],
  'test': [],
- 'installable': True,
+ 'installable': False,
  'active': False, }
