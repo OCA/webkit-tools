@@ -3,7 +3,7 @@
 #
 #    OpenERP, Open Source Management Solution
 #    Copyright (C) 2010-2015 OpenERP s.a. (<http://openerp.com>).
-#    Copyright (C) 2015 initOS GmbH & Co. KG (<http://www.initos.com>).
+#    Copyright (C) 2015 initOS GmbH(<http://www.initos.com>).
 #    Author Nikolina Todorova <nikolina.todorova at initos.com>
 #
 #    This program is free software: you can redistribute it and/or modify
@@ -23,7 +23,7 @@
 {
     'name': 'Webkit Setup',
     'version': '0.1.0',
-    'author': 'initOS GmbH & Co. KG',
+    'author': 'initOS GmbH',
     'category': '',
     'description': """
 Webkit Setup Module
