@@ -4,8 +4,8 @@
 {
     "name": "Report Archive",
     "summary": """
-    This module saves the reports to be printed
-    in a directory specified in the system parameters.
+    This module saves the PDF of any webkit report to the file system.
+    Add system a paramenter 'archive_reports_path' e.g.: /home/openerp/storage/
     """,
     "version": "1.0",
     "category": "Uncategorized",
