@@ -3,7 +3,7 @@ This module extends the functionality of webkit_report and allows you to archive
 
 Configuration
 	·A system parameter must be set up in order to make the storage possible. This parameter must have as key: "archive_reports_path" and as value the absolute path to the directory where the reports will be saved.
-	·Go to Actions -> Reports. Two new fields will be displayed: "Archive the file" and "Attachment Name when Archiving". Select those reports that you want to be stored by clicking the "Archive the File" flag and set a name for each by typing into the "Attachment Name when Archiving" field. This directory must exist.
+	·Go to Actions -> Reports. Two new fields will be displayed: "Archive the file" and "Save as File Prefix". Select those reports that you want to be stored by clicking the "Archive the File" flag and set a name for each by typing into the "Save as File Prefix" field. You can use python expression e.g. object.name. The directory must exist.
 	·If the directory is not specified or a name for the report has not been provided the file will not be saved into the file system.
 
 Usage
