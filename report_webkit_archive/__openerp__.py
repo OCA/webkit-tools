@@ -3,7 +3,7 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 {
     "name": "Report Archive",
-    "description":"""
+    "description": """
 This module extends the functionality of webkit_report and allows you to
 archive the reports to be printed into the file system of the same machine
 that is running the OpenERP instance. The directory must exist.
