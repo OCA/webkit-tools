@@ -18,6 +18,8 @@ class IrActionsReportXmlExt(osv.Model):
     _columns = {
         'is_archive': fields.boolean('Archive the File'),
         'archive_attachment': fields.char('Save as File Prefix',
-                                          help='This is the filename of the report. '
-                                               'You can use a python expression with the object and time variables.')
+                                          help='This is the filename of the '
+                                               'report. You can use a python '
+                                               'expression with the object'
+                                               ' and time variables.')
     }
