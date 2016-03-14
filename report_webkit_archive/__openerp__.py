@@ -7,11 +7,6 @@
     This module saves the PDF of any webkit report to the file system.
     Add system a parameter 'archive_reports_path' e.g.: /home/openerp/storage/
 
-Contributors
-------------
-* Federico Javier Mesa Hidalgo (javier.mesa@braintec-group.com)
-* Kumar Aberer (kumar.aberer@braintec-group.com)
-
     """,
     "version": "1.0",
     "category": "Uncategorized",
