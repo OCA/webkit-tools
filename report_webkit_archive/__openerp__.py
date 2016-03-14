@@ -36,7 +36,7 @@ Contributors
     This module saves the PDF of any webkit report to the file system.
     """,
     "version": "1.0",
-    "category": "Uncategorized",
+    "category": "Reports/Webkit",
     "website": "https://odoo-community.org/",
     "author": "brain-tec AG, Odoo Community Association (OCA)",
     "license": "AGPL-3",
