@@ -43,7 +43,7 @@ def __new_create(old_func):
                             pdf_file.write(pdf_binary)
                         _logger.info(_('Success, saved report PDF "%s" in "%s/%s"'
                                        % (report_xml.name, archive_reports_path, attachment_name)))
-                    except IOError as e:
+                    except Exception as e:
                         _logger.error(_('Failed, saving report PDF "%s" in "%s/%s": %s'
                                         % (report_xml.name, archive_reports_path, attachment_name, e.strerror)))
 
