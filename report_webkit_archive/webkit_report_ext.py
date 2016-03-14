@@ -44,7 +44,7 @@ def __new_create(old_func):
                         _logger.info(_('Success, saved report PDF "%s" in "%s/%s"'
                                        % (report_xml.name, archive_reports_path, attachment_name)))
                     except IOError as e:
-                        _logger.info(_('Failed, saving report PDF "%s" in "%s/%s": %s'
+                        _logger.error(_('Failed, saving report PDF "%s" in "%s/%s": %s'
                                        % (report_xml.name, archive_reports_path, attachment_name, e.strerror)))
 
                 else:
