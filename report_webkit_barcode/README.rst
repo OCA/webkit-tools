@@ -19,7 +19,7 @@ The function is defined as:
   barcode(value, code='Code128', drawOpts=None, htmlAttrs=None)
 
 Parameters
----------
+----------
 value
   Value for barcode as expected by barcode type. Code128 takes a number or
   numeric string
