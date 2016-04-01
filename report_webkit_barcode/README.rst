@@ -11,8 +11,6 @@ This module Add barcodes in webkit reports
 Usage
 =====
 
-Usage
------
 To embed a barcode image in a webkit report, use ``${helper.barcode(value)}``.
 Depending on template filtering, you might need to force not to use any filter
     by doing ``${helper.barcode(value) | safe}``
