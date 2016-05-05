@@ -15,6 +15,7 @@ Available addons
 addon | version | summary
 --- | --- | ---
 [base_headers_webkit](base_headers_webkit/) | 8.0.1.0.0 | Common Webkit Headers and CSS for standard reports (sale, purchase, invoices, ...)
+[report_webkit_barcode](report_webkit_barcode/) | 8.0.1.0.0 | Webkit Report Barcode
 
 Unported addons
 ---------------
