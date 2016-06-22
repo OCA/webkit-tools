@@ -22,8 +22,8 @@
 ##############################################################################
 {
     'name': 'Webkit Setup',
-    'version': '0.1.0',
-    'author': 'initOS GmbH',
+    'version': '7.0.1.0.0',
+    'author': 'initOS GmbH, Odoo Community Association (OCA)',
     'category': '',
     'description': """
 Webkit Setup Module
