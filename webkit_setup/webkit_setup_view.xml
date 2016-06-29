@@ -4,7 +4,6 @@
 		<record id="webkit_setup_config_view_form" model="ir.ui.view">
 		    <field name="name">webkit.setup.config.view</field>
 		    <field name="model">webkit.setup.config</field>
-		    <field name="type">form</field>
 		    <field name="inherit_id" ref="base.res_config_view_base"/>
 		    <field name="arch" type="xml">
 			    <group string="res_config_contents" position="replace">
