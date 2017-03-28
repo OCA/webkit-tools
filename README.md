@@ -10,6 +10,7 @@ Here you will find:
 * Helper to add chapter_server to report Webkit
 
 [//]: # (addons)
+
 Unported addons
 ---------------
 addon | version | summary
