@@ -1,12 +1,12 @@
 .. image:: https://img.shields.io/badge/licence-AGPL--3-blue.svg
     :alt: License: AGPL-3
 
-Base wekbit headers and CSS
+Base webkit headers and CSS
 ===========================
 
 
   Contains data headers and css to design standard reports, used by:
-   - sale_order_wekbit,
+   - sale_order_webkit,
    - purchase_order_webkit, ...
     
 
