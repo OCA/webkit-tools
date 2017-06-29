@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="act_report_xml_view_tree_ext" model="ir.ui.view">
+            <field name="name">ir.actions.report.xml.tree.archiving</field>
+            <field name="model">ir.actions.report.xml</field>
+            <field name="inherit_id" ref="base.act_report_xml_view_tree"/>
+            <field name="arch" type="xml">
+                <field name="attachment" position="after">
+                    <field name="is_archive"/>
+                    <field name="archive_attachment"/>
+                </field>
+            </field>
+        </record>
+
+        <record id="act_report_xml_view_form_ext" model="ir.ui.view">
+            <field name="name">ir.actions.report.xml.form.archiving</field>
+            <field name="model">ir.actions.report.xml</field>
+            <field name="inherit_id" ref="base.act_report_xml_view"/>
+            <field name="arch" type="xml">
+                <xpath expr="//group[@string='Attachments']" position="after">
+                    <group name="archive_to_file"
+                           string="Archive to File"
+                           attrs="{'invisible':[('report_type','!=','webkit')]}"
+                            >
+                        <field name="is_archive"/>
+                        <field name="archive_attachment"/>
+                    </group>
+                </xpath>
+            </field>
+        </record>
+
+
+    </data>
+</openerp>
