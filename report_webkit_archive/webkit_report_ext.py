@@ -8,6 +8,7 @@ from openerp.addons.report_webkit.webkit_report import WebKitParser
 import logging
 from openerp.tools.translate import _
 from openerp.tools.safe_eval import safe_eval
+from openerp import pooler
 import time
 
 _logger = logging.getLogger(__name__)
@@ -25,8 +26,9 @@ def __new_create(old_func):
         # creating the PDF
         pdf_binary, type_of_file = old_func(self, cr, uid, ids, data,
                                             context=None)
+        pool = pooler.get_pool(cr.dbname)
         # getting the report
-        report_obj = self.pool.get('ir.actions.report.xml')
+        report_obj = pool.get('ir.actions.report.xml')
         report_xml_ids = report_obj.search(cr, uid, [
             ('report_name', '=', self.name[7:])], context=context)
         if report_xml_ids:
@@ -40,7 +42,7 @@ def __new_create(old_func):
                                             {'object': obj, 'time': time})
 
                 # get path to save the file
-                archive_reports_path = self.pool.get(
+                archive_reports_path = pool.get(
                     'ir.config_parameter').get_param(cr, uid,
                                                      'archive_reports_path')
                 full_archive_pdf_path = '{path}{name}'.format(
