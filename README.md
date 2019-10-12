@@ -8,5 +8,3 @@ Here you will find:
 
 * Base headers for reports
 * Helper to add chapter_server to report Webkit
-
-
