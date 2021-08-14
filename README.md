@@ -13,9 +13,9 @@ Here you will find:
 
 Unported addons
 ---------------
-addon | version | summary
---- | --- | ---
-[base_headers_webkit](base_headers_webkit/) | 8.0.1.0.0 (unported) | Common Webkit Headers and CSS for standard reports (sale, purchase, invoices, ...)
-[report_webkit_chapter_server](report_webkit_chapter_server/) | 0.1 (unported) | Chapter server helper for report webkit
+addon | version | maintainers | summary
+--- | --- | --- | ---
+[base_headers_webkit](base_headers_webkit/) | 8.0.1.0.0 (unported) |  | Common Webkit Headers and CSS for standard reports (sale, purchase, invoices, ...)
+[report_webkit_chapter_server](report_webkit_chapter_server/) | 0.1 (unported) |  | Chapter server helper for report webkit
 
 [//]: # (end addons)
